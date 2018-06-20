@@ -1,4 +1,5 @@
 body {
+	margin: 0;
 	background-image: url(img/tablebackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6,32 +7,34 @@ body {
 }
 
 h1 {
+	margin-top: 15px;
 	text-align: center;
-	background-color: #491c03;
-	color: #e5a887;
+	background-color: #8B4513;
+	color: #DEB887;
 	font-family: sans-serif;
+	font-size: 40px;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #000;
+	overflow: hidden;
+	background-color: #000;
 }
 
 .navbar a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
 
 .navbar a.active {
-  background-color: #FFC0CB;
-  color: red;
+	background-color: #FFC0CB;
+	color: red;
 }
 
 #borderimg {
@@ -49,175 +52,175 @@ h1 {
 	margin-right: auto;
 }
 
-	.black {
-		background-color: #696969;
-		width: 75px;
-		height: 75px;
+.black {
+	background-color: #696969;
+	width: 75px;
+	height: 75px;
 
-	}
+}
 
-	.white {
-		background-color: white;
-		width: 75px;
-		height: 75px;
-	}
+.white {
+	background-color: white;
+	width: 75px;
+	height: 75px;
+}
 
-	td img{
-		width: 65px;
-		height: 65px;
-	}
+td img{
+	width: 65px;
+	height: 65px;
+}
 
 
-	.goup2:hover{
-		transform: translate3d(0px, -153px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.goup1:hover{
-		transform: translate3d(0px, -76px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.goup2:hover{
+	transform: translate3d(0px, -153px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.goup1:hover{
+	transform: translate3d(0px, -76px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.rook1:hover{
-		transform: translate3d(0px, -385px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.rook2:hover{
-		transform: translate3d(0px, -385px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.knight1:hover{
-		transform: translate3d(72px, -150px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.knight2:hover{
-		transform: translate3d(-72px, -150px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.bishop1:hover{
-		transform: translate3d(219px, -230px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.bishop2:hover{
-		transform: translate3d(-215px, -230px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
-	.pawn1:hover{
-		transform: translate3d(0px, 80px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.rook1:hover{
+	transform: translate3d(0px, -385px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.rook2:hover{
+	transform: translate3d(0px, -385px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.knight1:hover{
+	transform: translate3d(72px, -150px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.knight2:hover{
+	transform: translate3d(-72px, -150px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.bishop1:hover{
+	transform: translate3d(219px, -230px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.bishop2:hover{
+	transform: translate3d(-215px, -230px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
+.pawn1:hover{
+	transform: translate3d(0px, 80px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.pawn2:hover{
-		transform: translate3d(0px, 160px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.pawn2:hover{
+	transform: translate3d(0px, 160px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.brook1:hover{
-		transform: translate3d(0px, 400px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.brook1:hover{
+	transform: translate3d(0px, 400px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.bknight1:hover{
-		transform: translate3d(80px, 160px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.bknight1:hover{
+	transform: translate3d(80px, 160px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.bknight2:hover{
-		transform: translate3d(-80px, 160px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.bknight2:hover{
+	transform: translate3d(-80px, 160px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.bbishop1:hover{
-		transform: translate3d(143px, 160px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.bbishop1:hover{
+	transform: translate3d(143px, 160px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.bbishop2:hover{
-		transform: translate3d(-143px, 160px, 0px);
-		transition: 3s;
-		opacity: .5;
-		cursor: pointer;
-	}
+.bbishop2:hover{
+	transform: translate3d(-143px, 160px, 0px);
+	transition: 3s;
+	opacity: .5;
+	cursor: pointer;
+}
 
-	.boxl{
-		float: left;
-		position: relative;
-		top:280px;
-		left: 30px;
-		width: 300px;
-		height: auto;
-	}
-	.boxr{
-		float: right;
-		position: relative;
-		top:280px;
-		right: 30px;
-		width: 300px;
-		height: auto;
-	}
-	.boxed{ 
-		padding: 0.5em;
-		border-width : medium;
-		border-color: black;
-		border-width: 3px;
-		border-style: solid;
-		font-style: italic;
-	}
-	#fixedbox{ 
-		position: fixed;
-		bottom: 70%;
-		left: 0%;
-		width: 200px;
-		color: #696969;
-		background-color: #FFD700;
-	}
-	.recycleblackpawn:hover {
-		transform: translate3d(-250px, 210px, 0px);
-		transition: 3s;
-		cursor: pointer;
-	}
+.boxl{
+	float: left;
+	position: relative;
+	top:280px;
+	left: 30px;
+	width: 300px;
+	height: auto;
+}
+.boxr{
+	float: right;
+	position: relative;
+	top:280px;
+	right: 30px;
+	width: 300px;
+	height: auto;
+}
+.boxed{ 
+	padding: 0.5em;
+	border-width : medium;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	font-style: italic;
+}
+#fixedbox{ 
+	position: fixed;
+	bottom: 72.5%;
+	left: 0%;
+	width: 200px;
+	color: #696969;
+	background-color: #FFD700;
+}
+.recycleblackpawn:hover {
+	transform: translate3d(-250px, 210px, 0px);
+	transition: 3s;
+	cursor: pointer;
+}
 
-	.recycleblackrook:hover {
-		transform: translate3d(-250px, -10px, 0px);
-		transition: 3s;
-		cursor: pointer;
-	}
+.recycleblackrook:hover {
+	transform: translate3d(-250px, -10px, 0px);
+	transition: 3s;
+	cursor: pointer;
+}
 
-	.recyclewhitepawn:hover {
-		transform: translate3d(340px, 150px, 0px);
-		transition: 3s;
-		cursor: pointer;
-	}
+.recyclewhitepawn:hover {
+	transform: translate3d(340px, 150px, 0px);
+	transition: 3s;
+	cursor: pointer;
+}
 
-	.recyclewhitebishop:hover {
-		transform: translate3d(500px, -190px, 0px);
-		transition: 3s;
-		cursor: pointer;
-	}
+.recyclewhitebishop:hover {
+	transform: translate3d(500px, -190px, 0px);
+	transition: 3s;
+	cursor: pointer;
+}
