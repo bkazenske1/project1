@@ -1,11 +1,15 @@
 html{
 	background-image: url("pieces/light.jpg")
-	
 }
+
+body{
+  margin: 0;
+}
+
 .head { 
-font-size: 25px ;
-color: Black;
-text-align: center;
+  font-size: 25px ;
+  color: Black;
+  text-align: center;
 }
 
 .navbar {
@@ -31,4 +35,4 @@ text-align: center;
   color: red;
 }
 .list { 
-font-size: 20px ; }
+  font-size: 20px ; }

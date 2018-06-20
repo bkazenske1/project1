@@ -1,5 +1,10 @@
 html{
-	background-image: url("sand2.jpg")
+	background-image: url("pieces/sand2.jpg")
+}
+
+body{
+  margin: 0;
+
 }
 .navbar {
   overflow: hidden;
@@ -24,7 +29,27 @@ html{
   color: red;
 }
 .head { 
-font-size: 30px ;
-color: black;
-text-align: center;
+  font-size: 30px ;
+  color: black;
+  text-align: center;
+}
+
+img{
+  padding-top: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul{
+  text-align: center;
+}
+ul li{
+  font-size: 30px;
+  color: black;
+  display: inline;
+  padding: 10px;
+  font-style: italic;
+  
+
 }
